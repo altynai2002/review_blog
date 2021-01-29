@@ -48,6 +48,7 @@ class CreateUpdateReviewSerializer(serializers.ModelSerializer):
 
 class ReviewSerializer(serializers.ModelSerializer):
     """Вывод отзывов"""
+    author = serializers.CharField(read_only=True)
     children = RecursiveSerializer(many=True)
 
     class Meta:
