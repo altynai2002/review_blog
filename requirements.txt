@@ -1,0 +1,8 @@
+django==3.1
+python-decouple==3.3
+pillow==7.2.0
+djangorestframework==3.12.2
+django-filter==2.3.0
+pytils
+django-ckeditor
+psycopg2-binary==2.8.5
